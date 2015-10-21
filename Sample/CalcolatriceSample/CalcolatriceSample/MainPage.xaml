@@ -1,0 +1,244 @@
+﻿<Page
+    x:Class="CalcolatriceSample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CalcolatriceSample"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <SplitView x:Name="MySplitView" DisplayMode="CompactOverlay"  IsPaneOpen="False" 
+               CompactPaneLength="50" OpenPaneLength="170">
+        <SplitView.Pane>
+            <StackPanel Background="#303F9F">
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
+                    Width="50" Height="50" Background="Transparent" Click="HamburgerButton_Click"
+                            Foreground="White"/>
+                    <TextBlock Foreground="White" Text="Calcolatrice" FontSize="18" VerticalAlignment="Center" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton1" FontFamily="Segoe MDL2 Assets" Content="&#xE825;"
+                    Width="50" Height="50" Background="Transparent"
+                            Foreground="White"/>
+                    <TextBlock Text="Home" FontSize="18" VerticalAlignment="Center"
+                               Foreground="White"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton2" FontFamily="Segoe MDL2 Assets" Content="&#xE8E1;"
+                        Width="50" Height="50" Background="Transparent"
+                            Foreground="White" Click="toSchermataUno"/>
+                    <TextBlock Text="Schermata 1" FontSize="18" VerticalAlignment="Center" 
+                               Foreground="White"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="MenuButton3" FontFamily="Segoe MDL2 Assets" Content="&#xE70F;"
+                        Width="50" Height="50" Background="Transparent" 
+                            Foreground="White"/>
+                    <TextBlock Text="Schermata 2" FontSize="18" VerticalAlignment="Center" 
+                               Foreground="White"/>
+                </StackPanel>
+            </StackPanel>
+        </SplitView.Pane>
+        <SplitView.Content>
+
+
+            <Grid Name="Grid" Background="#448AFF">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="3*"></RowDefinition>
+                    <RowDefinition Height="6*"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="SAMPLE DI UNA CALCOLATRICE"
+                           HorizontalAlignment="Center"
+                           Margin="554,20,553,20"
+                           FontSize="20"
+                           Foreground="Red"
+                           Grid.Row="0"/>
+                <Grid  Background="White" 
+                       Grid.Row="1"
+                       Margin="240,0,240,20">
+                    <TextBlock Text="0"
+                           TextAlignment="Right"
+                           VerticalAlignment="Bottom"
+                           FontSize="100"
+                           Margin="100,0,100,20"
+                           
+                           Name="schermo"/>
+                </Grid>
+
+                <Grid Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                        <ColumnDefinition Width="2*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+
+
+
+
+                    <Button Content="CE" Grid.Row="0" Grid.Column="1"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="ce"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="C" Grid.Row="0" Grid.Column="2"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Name="c"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="Cancella" Grid.Row="0" Grid.Column="3"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="cancella"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="/" Grid.Row="0" Grid.Column="4"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="divisione"
+                            Background="#FFC5CAE9"/>
+
+
+
+                    <Button Content="7" Grid.Row="1" Grid.Column="1"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="sette"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="8" Grid.Row="1" Grid.Column="2"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="otto"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="9" Grid.Row="1" Grid.Column="3"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="nove"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="X" Grid.Row="1" Grid.Column="4"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="moltiplicazione"
+                            Background="#FFC5CAE9"/>
+
+
+
+
+                    <Button Content="4" Grid.Row="2" Grid.Column="1"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="quattro"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="5" Grid.Row="2" Grid.Column="2"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="cinque"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="6" Grid.Row="2" Grid.Column="3"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="sei"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="-" Grid.Row="2" Grid.Column="4"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="sottrazione"
+                            Background="#FFC5CAE9"/>
+
+
+                    <Button Content="1" Grid.Row="3" Grid.Column="1"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="uno"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="2" Grid.Row="3" Grid.Column="2"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="due"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="3" Grid.Row="3" Grid.Column="3"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="tre"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="+" Grid.Row="3" Grid.Column="4"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="addizione"
+                            Background="#FFC5CAE9"/>
+
+
+                    <Button Content="0" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="zero"
+                            Background="#FFC5CAE9"/>
+
+                    <Button Content="." Grid.Row="4" Grid.Column="3"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="virgola"
+                            Background="#FFC5CAE9"/>
+                    <Button Content="=" Grid.Row="4" Grid.Column="4"
+                            HorizontalAlignment="Stretch" VerticalAlignment="Stretch"
+                            Margin="10"
+                            FontSize="20"
+                            Click="buttonKeyboard"
+                            Name="uguale"
+                            Background="#FFC5CAE9"/>
+
+                </Grid>
+            </Grid>
+        </SplitView.Content>
+    </SplitView>
+
+</Page>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>FEDERICOPAR8D2C</Machine>
+    <WindowsUser>federicoparezzan</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1af4b2f1-5480-49c8-a154-774a1a8dd1c3</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>63DFDF86C38C819C379F7A54DDF4C25159F8E3FF8B7701FE3E8F7B12B6C4B85B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1af4b2f1-5480-49c8-a154-774a1a8dd1c3_1.0.0.0_neutral__sh4b5jkms1d1a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1af4b2f1-5480-49c8-a154-774a1a8dd1c3_sh4b5jkms1d1a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1af4b2f1-5480-49c8-a154-774a1a8dd1c3</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=federicoparezzan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-17T15:34:51.194</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-16T21:10:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-17T15:34:51.132</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

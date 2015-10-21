@@ -1,0 +1,16 @@
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bin\Debug\ReverseMap\resources.pri
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bin\Debug\AppxManifest.xml
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bin\Debug\WebApp Sample.build.appxrecipe
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\ResourceHandlingTask.state
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\priconfig.xml
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\priconfig.xml.intermediate
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\layout.resfiles
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\layout.resfiles.intermediate
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\resources.resfiles
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\resources.resfiles.intermediate
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\pri.resfiles
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\pri.resfiles.intermediate
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\qualifiers.txt
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\qualifiers.txt.intermediate
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\federicoparezzan\documents\visual studio 2015\Projects\WebApp Sample\WebApp Sample\bld\Debug\ProjectArchitectures.txt
